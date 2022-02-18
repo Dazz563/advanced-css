@@ -1,3 +1,12 @@
+body {
+    font-family: "Lato", sans-serif;
+    // font-size: 16px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
@@ -22,4 +31,10 @@
         letter-spacing: 1.75rem;
         animation: moveInRight 2s ease-out;
     }
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
 }
