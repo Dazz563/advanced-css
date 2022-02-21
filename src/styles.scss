@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+// Abstract
 @import "../styles/abstracts/functions";
 @import "../styles/abstracts/mixins";
 @import "../styles/abstracts/variables";
-//
+// Base
 @import "../styles/base/base";
 @import "../styles/base/animations";
 @import "../styles/base/typography";
 @import "../styles/base/util";
-//
+// Components
 @import "../styles/components/button";
 @import "../styles/components/composition";
 @import "../styles/components/feature-box";
@@ -16,8 +17,10 @@
 @import "../styles/components/story";
 @import "../styles/components/bg-video";
 @import "../styles/components/form";
-//
+// Layouts
 @import "../styles/layout/grid";
 @import "../styles/layout/header";
-//
+@import "../styles/layout/footer";
+@import "../styles/layout/navigation";
+// Pages
 @import "../styles/pages/home";
